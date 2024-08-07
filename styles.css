@@ -1,0 +1,61 @@
+/* Import Birch Font */
+@import url('https://fonts.googleapis.com/css2?family=Birch:wght@400;700&display=swap');
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif; /* Default font */
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f0f0f0; /* Light gray background color for the rest of the page */
+}
+
+/* Header */
+header {
+    background: linear-gradient(to right, #ff4c4c, #333333); /* Gradient from rouge to dark gray/black */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em; /* Adjust the size as needed */
+    color: #fff; /* Color of the name */
+    font-family: 'Birch', sans-serif; /* Birch font for the name */
+}
+
+/* Navigation */
+nav {
+    background: #ff4c4c; /* Solid rouge color */
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Sections */
+.section {
+    padding: 60px 0;
+    position: relative;
+    z-index: 1;
+}
+
+
